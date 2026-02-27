@@ -3,6 +3,7 @@
 #include <string>
 
 #include <linux/can.h>
+#include <cstdint>
 
 namespace piper::gripper::internal {
 
