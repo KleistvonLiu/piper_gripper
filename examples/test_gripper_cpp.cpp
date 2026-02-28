@@ -33,7 +33,7 @@ int main() {
   std::signal(SIGINT, OnSignal);
 
   piper::gripper::Config cfg;
-  cfg.can_ifname = "can0";
+  cfg.can_ifname = "can1";
 
   piper::gripper::GripperClient client(cfg);
 
